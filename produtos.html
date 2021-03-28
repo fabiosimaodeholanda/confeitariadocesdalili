@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF8">
+<title>Produtos - Confeitaria Doces da Lili</title>
+<link rel="Stylesheet" href="./css/estilo.css">
+<script src="./js/funcoes.js"></script>
+
+</head>
+
+
+<body style="background-color: pink;">
+    <nav class="menu">
+        
+        <a href="index.html">Página Inical</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="loja.html">Endereço</a>
+        <a href="contato.html">Contatos</a>
+        </nav>
+<header>
+<h2 style="text-align: center;">Confeitaria Doces da Lili</h2>
+</header>
+<hr>
+</br></br>
+<section style="display: flex;">
+
+
+<div id="mostrarProdutos"></div>
+
+<div id="produtos" style="display: flex; flex-wrap: wrap;">
+
+<div class="box_produtos" id="geladeira" style="display: block;">
+<img src="./imagens/bolopiscina.png.jpg" width="300px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Bolo Piscina rende 4 fatias grandes</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4" >R$ 28,00</font></p><br>
+</div>
+
+
+<div class="box_produtos" id="geladeira" style="display: block;">
+<img src="./imagens/tortadefrango.png.jpg" width="530px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Torta de Frango rende 8 pedaços</font></p>
+<hr>
+<p class="preo"><font face="Arial" size="4" >R$ 40,00</font></p><br>
+</div>
+
+<div class="box_produtos" id="geladeira" style="display: block;">
+<img src="./imagens/bolovulcaoninho.png.jpg" width="300px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Bolo vulcão ninho com morango</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4" >R$ 40,00</font></p><br>
+</div>
+
+
+<div class="box_produtos" id="fogao" style="display: block;">
+<img src="./imagens/pudimdeleitecondensado.png.jpg" width="530px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Pudim de leite condensado</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4">R$ 40,00</font></p><br>
+</div>
+
+<div class="box_produtos" id="fogao" style="display: block;">
+<img src="./imagens/bolodecenoura.png.jpg" width="280px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Bolo de cenoura rende 8 fatias</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4">R$ 35,00</font></p><br>
+</div>
+
+<div class="box_produtos" id="microondas" style="display: block;">
+<img src="./imagens/bolodebrigadeiro.png.jpg" width="650px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Bolo de brigadeiro branco rende 100 fatias</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4" >R$ 120,00</font></p><br>
+</div>
+
+<div class="box_produtos" id="microondas" style="display: block;">
+<img src="./imagens/bolokitkat.png.jpg" width="300px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Bolo kitkat com topper 30cm</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4">R$ 120,00</font></p><br>
+</div>
+
+<div class="box_produtos" id="microondas" style="display: block;">
+<img src="./imagens/centodebrigadeiro.png.jpg" width="530px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Cento de brigadeiro com topper</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4">R$ 50,00</font></p><br>
+</div>
+
+<div class="box_produtos" id="lavadoraderoupas" style="display: block;">
+<img src="./imagens/bolovulcaodeoreo.png.jpg" width="300px" onclick="destaque(this)">
+<br>
+<font face="Arial" size="2">Bolo vulcão de oreo</font>
+<hr>
+<p class="preco anterior"><font face="Arial" size="4">R$ 35,00</font></p><br>
+</div>
+
+<div class="box_produtos" id="lavadoraderoupas" style="display: block;">
+<img src="./imagens/centodedocinho.png.jpg" width="500px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Cento de docinho gourmet</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4">R$ 45,00</font></p><br>                          
+</div>
+
+<div class="box_produtos" id="lavaloucas" style="display: block;">
+<img src="./imagens/nakedredvalved.png.jpg" width="350px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Naked red vevelt com frutas vermelhas 30cm</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4">R$ 100,00</font></p><br>                              
+</div>
+
+<div class="box_produtos" id="lavaloucas" style="display: block;">
+<img src="./imagens/redvevelt.png.jpg" width="350px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Red vevelt com frutas vermelhas e chantilly</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4">R$ 85,00</font></p><br>                                 
+</div>
+
+<div class="box_produtos" id="lavaloucas" style="display: block;">
+<img src="./imagens/pavedepote.png.jpg" width="350px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Pavê de pote</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4">R$ 5,00</font></p><br>                              
+</div>
+
+<div class="box_produtos" id="lavaloucas" style="display: block;">
+<img src="./imagens/tartele.png.jpg" width="470px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Tartele</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4">R$ 5,00</font></p><br>                              
+</div>
+
+<div class="box_produtos" id="lavaloucas" style="display: block;">
+<img src="./imagens/bolovulcaoninhocommorango.png.jpg" width="350px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Bolo vulcão ninho com morango e ganache</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4">R$ 40,00</font></p><br>                              
+</div>
+
+<div class="box_produtos" id="lavaloucas" style="display: block;">
+<img src="./imagens/bolodecorado.png.jpg" width="350px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Bolo decorado com chantilly e topper</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4">Orçamento pelo WhatsApp</font></p><br>                              
+</div>
+
+<div class="box_produtos" id="lavaloucas" style="display: block;">
+<img src="./imagens/bolodecoradocomchantillyetopper.png.jpg" width="300px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Bolo decorado com chantilly e topper</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4">Orçamento pelo WhatsApp</font></p><br> 
+</div>
+
+<div class="box_produtos" id="lavaloucas" style="display: block;">
+<img src="./imagens/geladinhogourmet.png.jpg" width="530px" onclick="destaque(this)">
+<br>
+<p class="descricao"><font face="Arial" size="2">Geladinho gourmet</font></p>
+<hr>
+<p class="preco"><font face="Arial" size="4">R$ 3,50</font></p><br>                              
+</div>
+</div>
+</div>
+</section>
+
+</body>
+</html>
